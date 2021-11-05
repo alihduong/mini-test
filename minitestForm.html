@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+.signup{
+    background-color: aquamarine;
+    width: 500px;
+}
+.body_header{
+    text-align: center;
+    background-color: orangered;
+    color: white;
+}
+.title{
+    color: blue;
+    display: inline-block;
+    min-width: 70px;
+    padding: 5px;
+    margin: 0;
+}
+.button{
+    margin-left: 50px;
+}
+</style>
+<body>
+
+    <div class="signup">
+
+        <div class="body_header">
+            <h1>Biểu mẫu đăng ký</h1>
+        </div>
+            <form action="">
+                <label for="name" class="title"> Họ và tên </label>
+                <input type="text" name="name" id="name" placeholder="Nguyễn Hoàng Dương"><br>
+                <label for="age" class="title"> Tuổi </label>
+                <select name="age" id="age">
+                    <option value="0">Chọn Tuổi</option>
+                    <option value="10">6-10</option>
+                    <option value="20">10-20</option>
+                    <option value="30">20-30</option>
+                    <option value="40">30-40 </option>
+                </select>
+                <br>
+                <p class="title">Giới tính</p>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Nam</label>
+                <input type="radio" name="gender" id="fmale" value="male">
+                <label for="fmale">Nữ</label>
+                <br>
+                <p class="title">Số điện thoại</p>
+                <label for="num1"></label>
+                <input type = "text" id="num1" name="phone1" size="5" placeholder="098"/> -
+                <label for="num2"></label>
+                <input type = "text" id="num2" name="phone2" size="5" placeholder="873"/> -
+                <label for="num3"></label>
+                <input type = "text" id="num3" name="phone3" size="5" placeholder="8231"/> <br>
+                <br>
+                <p class="title">Email</p>
+                <label for="email"></label>
+                <input type="text" id="email" name="email" placeholder="abc@gmail.com">
+                <br>
+                <p class="title">Địa Chỉ</p>
+                <label for="address"></label>
+                <input type="text" id="address" name="address" placeholder="Quận Hoàng Mai, Hà Nội">
+                <br>
+                <p class="title">Account</p>
+                <label for="acc"></label>
+                <input type="text" id="acc" name="acc" placeholder="abc@gmail.com">
+                <br>
+                <p class="title">PassWord</p>
+                <label for="pass"></label>
+                <input type="password" id="pass" name="pass" placeholder="Your PassWord Account">
+                <br>
+                <input type="submit" name="submit" value="Gửi" class="button">
+                <input type="reset" name="reset" value="Nhập Lại" class="button">
+            </form>
+    </div>
+</body>
+</html>
